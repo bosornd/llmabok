@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "math_agent": "./src/agent/agent.py:math_agent",
+    "supervisor": "./src/agent/supervisor.py:supervisor"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}
