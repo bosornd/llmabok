@@ -10,5 +10,5 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 chain = prompt | llm
